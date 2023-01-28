@@ -1,13 +1,16 @@
+
+
 import React from 'react';
-import Home from './components/Home';
-import "./main.css";
+import MainStyle from './MainStyle';
 
 
 function App() {
   return (
-    <div>
-      Abdullah Kamel Habib
-    </div>
+  <>
+        <MainStyle/>
+        Global Style used emotoin styled
+    </>
   );
   }
 export default App;
+  
