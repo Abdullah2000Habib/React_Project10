@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
 import { Label, LoginButton, RegisterButton, RegisterForm, RegisterInput, RegisterTitle, RegisterWrapper } from './style';
 
 export default function RegisterPage() {
@@ -16,7 +17,9 @@ export default function RegisterPage() {
             <RegisterInput type="password" placeholder="Enter Your password ..."></RegisterInput>
             <RegisterButton>Register</RegisterButton>
           </RegisterForm>
-          <LoginButton>Login</LoginButton>
+          <LoginButton>
+            <Link className='link' to="/login">Login</Link>
+          </LoginButton>
         </RegisterWrapper>
     </>
   )
