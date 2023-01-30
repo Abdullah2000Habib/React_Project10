@@ -1,5 +1,5 @@
 import React from 'react';
-import SettingsPage from '../pages/SettingsPage';
+import RegisterPage from '../pages/RegisterPage/RegisterPage';
 import Topbar from './Topbar/Topbar';
 
 export default function Home() {
@@ -9,7 +9,9 @@ export default function Home() {
         {/* <HomePage/> */}
         {/* <SingelPage/> */}
         {/* <WritePage/> */}
-        <SettingsPage/>
+        {/* <SettingsPage/> */}
+        {/* <LoginPage/> */}
+        <RegisterPage/>
     </>
   )
 }
