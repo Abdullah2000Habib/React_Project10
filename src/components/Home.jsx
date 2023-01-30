@@ -1,12 +1,13 @@
 import React from 'react';
-import HomePage from '../pages/HomePage/HomePage';
+import SingelPage from '../pages/SinglePage';
 import Topbar from './Topbar/Topbar';
 
 export default function Home() {
   return (
     <>
         <Topbar/>
-        <HomePage/>
+        {/* <HomePage/> */}
+        <SingelPage/>
     </>
   )
 }
